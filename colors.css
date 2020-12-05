@@ -1,0 +1,35 @@
+.color-black {
+    background-color: black;
+}
+
+.color-white {
+    background-color: white;
+}
+
+.color-darkcyan {
+    background-color: darkcyan;
+}
+
+.font-black {
+    color: black;
+}
+
+.font-white {
+    color: white;
+}
+
+.font-darkcyan {
+    color: darkcyan;
+}
+
+.border-black {
+    border-color: black;
+}
+
+.border-white {
+    border: white;
+}
+
+.border-darkcyan {
+    border: darkcyan;
+}

@@ -1,0 +1,57 @@
+body {
+    background-image: url("background_base.jpg");
+    background-size: 600px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+#main {
+    margin: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    width: 1026px;
+    height: 578px;
+
+    position: absolute;
+
+    background: url("background.png") center top no-repeat;
+    background-size: auto 578px;
+}
+
+.font-PR {
+    font-family: PR;
+}
+
+.border-bevelled {
+    border-radius: 5px;
+}
+
+#description {
+    height: 25px;
+    width: 60%;
+    margin-left: auto;
+}
+
+.stopper-scroll {
+    height: 25px;
+    width: 100%;
+}
+
+.banner-container {
+    width: fit-content;
+}
+
+.banner-image {
+    width: 448px;
+}
+
+@font-face {
+    font-family: PR;
+    src: url("PRGothIWA-Dm.TTF");
+}

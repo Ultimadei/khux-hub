@@ -1,0 +1,19 @@
+{
+    "name": "banner_blackFriday01",
+    "bannerData": {
+        "pools": [
+            
+        ],
+        "stopperData": {
+            "stopper": [
+                {
+                    "uniqueMedalID": 0,
+                    "weight": 100
+                }
+            ],
+            "frequency": 3,
+            "reset": false
+        }
+    },
+    "description": "Get one of these thirteen medals every 3rd draw: \n* SN++ KH2 Sephiroth \n* SN++ Illustrated KH3 Sora"
+}

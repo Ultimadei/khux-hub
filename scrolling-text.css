@@ -1,0 +1,39 @@
+.scroll-left {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.scroll-left p {
+    position: absolute;
+    line-height: 1.25;
+    width: fit-content;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+
+    -moz-animation: scroll-left 9s linear infinite;
+    -moz-animation-delay: -1.8s;
+    -moz-user-select: none;
+    
+    -webkit-animation: scroll-left 9s linear infinite;
+    -webkit-animation-delay: -1.8s;
+    -webkit-user-select: none;
+
+    animation: scroll-left 9s linear infinite;
+    animation-delay: -1.8s;
+    user-select: none;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    20%, 40% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-120%);
+    }
+}
